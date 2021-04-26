@@ -1,7 +1,7 @@
 job ('nodejs job')
 {
     scm{
-        git('https://github.com/faltypi/githubfaltypi2.git'){
+        git('https://github.com/faltypi/githubfaltypi2.git'){ node ->
             node / gitConfigName('DSL script')
             node / gitConfigEmail('jenkins@fakeemail.com')
 
