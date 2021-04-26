@@ -1,6 +1,8 @@
 {
     "scripts": {
-    "test": "mocha"
-  }
-  
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "mocha": "^8.3.2"
+    }
 }
